@@ -1,0 +1,321 @@
+            /* Media query para pantallas menores o iguales a 768px (tablets y móviles) */
+
+@media (max-width: 768px)
+{
+}
+
+
+            /* Media query para pantallas menores o iguales a 1200px */
+
+
+@media (max-width: 1200px)
+{
+}
+
+
+
+            /*---Variables Normales---*/
+
+
+*
+{ 
+    margin: 0px;
+    padding: 0px;
+}
+h1
+{
+    text-align: center;
+    padding: 5vh;
+    height: 15vh;
+    font-weight:bold;
+    font-size: 3.5vw;
+    margin: auto;
+}
+h2
+{
+    text-align:center;
+    font-size: 22vh;
+    padding: 10vh;
+    margin: 15vh;
+}
+
+h3
+{
+    font-size: 10vh;
+    margin: 5vh;
+    text-decoration:underline 0.8vh;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    display: flex;
+}
+body
+{
+    background-color: rgb(231, 211, 169);
+}
+footer
+{ 
+    text-align: center;
+    color: blue;
+    background-color: rgb(184, 156, 101);
+    background-image:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_RYoJpiV4_WewTikm-DGScDHOFGXssso2KACC8Wov--YRifu9);
+    padding: 1px;
+}
+p
+{
+    font-size: 1.8vw;
+    text-align:center;
+    margin: 1vh;
+    padding: 2vh;
+    line-height: 2; 
+}
+ul
+{
+    padding : vw;
+    list-style-type: style type;
+    text-align: center;
+    font-size: 2vh;
+    background-color: rgb(161, 136, 84);
+}
+li
+{
+    font-size: 10vh;
+    display: inline-block;
+    padding: 1vw;
+    margin: 1vw;
+    background-color: rgb(231, 211, 169);
+    font-weight:bold;
+}
+
+
+            /*--- Barra de Navegacion y Footer---*/
+
+
+.nombre-marca
+{
+    text-decoration: none;
+    color: rgb(83, 63, 22);
+    ;
+}
+.navfoot
+{
+    background-image:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_RYoJpiV4_WewTikm-DGScDHOFGXssso2KACC8Wov--YRifu9);
+}
+.navbar
+{
+    background-image:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_RYoJpiV4_WewTikm-DGScDHOFGXssso2KACC8Wov--YRifu9);
+    display: flex;
+    height: auto;
+}
+.redes-footer
+{
+    width: 5vh; 
+    padding: 1vw;
+    margin: 0.2vw;
+    display:inline-block;
+    justify-content: center;
+}
+.img-footer
+{
+    max-width: 100%;
+    height: auto;
+    width: 55vh;
+    padding: 7%;
+}
+.logo-empresa
+{ 
+    max-width: 100%;
+    height: 20vh;
+    padding: 1vh;
+    width: 20vh;
+    border-radius: 50%;
+    border: 2px 
+}
+.marcafooter
+{ 
+    font-size: 1.6vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.derechos-autor
+{
+    padding: 0vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.7vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+            /*---Variables Del Inicio---*/
+
+
+.intro-inicio
+{
+    display: flex;
+    justify-content: center;
+    padding: 1.5vw;
+    height: 5vh;
+    font-size: 1.7vw;
+    font-family: 'Hurme Geometric Sans 3','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.rightindex
+{ max-width: 100%;
+    height: auto;
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+}
+.imgright
+{
+    padding: .5vw;
+    max-width: 90%;
+    height: auto;
+    width: 42vh;
+    margin: 2vw;
+}
+
+
+            /*---Variables De Contacto---*/
+
+
+.imgredonda
+{
+    border-radius: 90px;
+    max-width: 100%;
+    height: auto;
+    width: 67px;
+}
+.gmail
+{
+    max-width: 100%;
+    height: auto;
+    width: 67px;
+}
+.imgredes
+{
+    border-radius: 30%;
+    max-width: 100%;
+    height: auto;
+    width: 67px;
+    padding: 10px;
+}
+.divredes
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.divcontac
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+.a-gmail
+{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+.contacto
+{
+    padding: 2px;
+    margin: 0px;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+
+            /*---Variables De Nosotros---*/
+
+
+.p-nos
+{
+    font-size: 16px;
+    text-align:center;
+    margin :10px;
+    padding: 10px;
+    line-height: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_RYoJpiV4_WewTikm-DGScDHOFGXssso2KACC8Wov--YRifu9);
+    font-weight: 500;
+}
+.pie-de-foto
+{
+    font-size: 12px;
+    margin: 0px;
+    padding: 5px;
+}
+.img-nahuel
+{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    margin: 1px;
+    padding: 1px
+}
+.div-nahuel
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+            /*---Variables De Ubicacion---*/
+
+
+.logochico
+{
+    height: 50px;
+    width: 50px;
+    padding: 10px
+}
+.logoredondo
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 55%;
+    padding: 10px
+}
+.div-ubi
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+            /*---Variables De Productos---*/
+
+
+.p-prod
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.divprod
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div_img
+{
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    padding: 0px;
+    border: 10px solid black;
+}
+
+            /*--- Extra o para acomodar---*/
