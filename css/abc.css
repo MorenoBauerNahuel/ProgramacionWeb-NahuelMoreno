@@ -116,3 +116,30 @@ p{
     margin:1rem;
     background-color: rgb(255, 255, 255);
 }
+
+.logochico
+{
+    height: 50px;
+    width: 50px;
+    padding: 10px
+}
+.logoredondo
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 55%;
+    padding: 10px
+}
+.div-ubi
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+iframe{
+    border: 1rem solid black;
+}
+.ubicacion{
+    font-size: 1rem;
+    margin: 0.2rem;
+}
