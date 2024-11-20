@@ -1,15 +1,130 @@
+@media (max-width: 480px)
+{
+    h1 {
+        text-align: center;
+        font-weight:bold;
+        font-size: 3.5vw;
+        margin: auto;
+    }
+    h3
+    {
+    font-size: 2vh;
+    margin: 2vh;
+    text-decoration:underline 0.2vh;
+    }
+
+    a{
+        font-size: 3vh;
+        padding:auto;
+    }
+    .nombre-marca
+    {
+        text-decoration: none;
+        color: rgb(83, 63, 22);
+        font-size: 70%;
+    }
+    .navbar{
+        background-image:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_RYoJpiV4_WewTikm-DGScDHOFGXssso2KACC8Wov--YRifu9);
+        display: flex;
+        height: auto;
+        }
+    p, .derechos-autor {
+        font-size: 1.2vw;
+    }
+    .img-footer{
+        width: 20vh;
+    }
+    .logo-empresa {
+        width: 20vh;
+    }
+    .marcafooter
+{ 
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.derechos-autor
+{
+    padding: 0vw;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+    /* Ajusta márgenes y paddings para reducir el espacio */
+    ul li {
+        font-size: 6vh;
+        margin: 0.5vw;
+    }
+}            
+            
+            
             /* Media query para pantallas menores o iguales a 768px (tablets y móviles) */
 
 @media (max-width: 768px)
-{
+{    h1 {
+            font-size: 5vw;
+            padding: 2vh;
+        }
+    h2 {
+            font-size: 3.5vh;
+        }
+    h3, .derechos-autor {
+            font-size: 2vh;
+        }
+    p {
+            font-size: 1.4vw;
+            padding: 1.5vh;
+        }
+    .navbar, .divcontac {
+            flex-direction: column; /* Cambia la disposición a vertical */
+            align-items: center;
+        }
+    .divprod {
+            padding: 1vh;
+        }
+    .img-footer, .logo-empresa {
+            width: 30vh;
+        }
+    }
+    .marcafooter
+{ 
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    
 }
+.derechos-autor
+{
+    padding: 0vw;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    
+}
+    
 
 
             /* Media query para pantallas menores o iguales a 1200px */
 
 
 @media (max-width: 1200px)
-{
+{ 
+    h1 {
+    font-size: 3vw;
+    padding: 4vh;}
+    h2 {
+        font-size: 4vh;
+    }
+    p, a, .derechos-autor {
+        font-size: 1.5vw;
+    }
+    .img-footer {
+        width: 45vh;
+    }
 }
 
 
@@ -25,8 +140,6 @@
 h1
 {
     text-align: center;
-    padding: 5vh;
-    height: 15vh;
     font-weight:bold;
     font-size: 3.5vw;
     margin: auto;
@@ -34,16 +147,17 @@ h1
 h2
 {
     text-align:center;
-    font-size: 22vh;
-    padding: 10vh;
-    margin: 15vh;
+    font-size: 5vh;
+    padding: 4vh;
+    margin: 2vh;
 }
 
 h3
 {
-    font-size: 10vh;
-    margin: 5vh;
-    text-decoration:underline 0.8vh;
+    font-size: 3vh;
+    margin: 3vh;
+    text-decoration:underline 0.2vh;
+    text-align: center;
 }
 a
 {
@@ -66,7 +180,7 @@ footer
 }
 p
 {
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     text-align:center;
     margin: 1vh;
     padding: 2vh;
@@ -74,10 +188,9 @@ p
 }
 ul
 {
-    padding : vw;
+    padding : 0;
     list-style-type: style type;
     text-align: center;
-    font-size: 2vh;
     background-color: rgb(161, 136, 84);
 }
 li
@@ -93,12 +206,16 @@ li
 
             /*--- Barra de Navegacion y Footer---*/
 
-
+#navbarNav {
+padding:0px
+}
 .nombre-marca
 {
     text-decoration: none;
     color: rgb(83, 63, 22);
-    ;
+    padding: 5vh;
+    margin:2vh;
+    font-size: 70%;
 }
 .navfoot
 {
@@ -108,22 +225,21 @@ li
 {
     background-image:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_RYoJpiV4_WewTikm-DGScDHOFGXssso2KACC8Wov--YRifu9);
     display: flex;
-    height: auto;
+    height: auto;   
 }
 .redes-footer
 {
-    width: 5vh; 
-    padding: 1vw;
-    margin: 0.2vw;
+    width: 5rem; 
+    padding: 1.7vw;
+    margin: 0.2rem;
     display:inline-block;
     justify-content: center;
 }
 .img-footer
 {
-    max-width: 100%;
-    height: auto;
+    max-width: 2rem;
+    height: 2rem;
     width: 55vh;
-    padding: 7%;
 }
 .logo-empresa
 { 
@@ -136,7 +252,7 @@ li
 }
 .marcafooter
 { 
-    font-size: 1.6vw;
+    font-size: 0.8vw;
     display: flex;
     justify-content: center;
     
@@ -145,7 +261,7 @@ li
 {
     padding: 0vw;
     color: rgb(0, 0, 0);
-    font-size: 1.7vw;
+    font-size: 0.8vw;
     display: flex;
     justify-content: center;
     
@@ -230,10 +346,11 @@ li
     margin: 0px;
     line-height: 1.8;
     font-size: 17px;
+    
 }
 
 
-            /*---Variables De Nosotros---*/
+/*---Variables De Nosotros---*/
 
 
 .p-nos
@@ -270,7 +387,7 @@ li
 }
 
 
-            /*---Variables De Ubicacion---*/
+/*---Variables De Ubicacion---*/
 
 
 .logochico
@@ -292,16 +409,24 @@ li
     flex-direction: column;
     align-items: center;
 }
+iframe{
+    border: 1rem solid black;
+}
+.ubicacion{
+    font-size: 1rem;
+    margin: 0.2rem;
+}
 
-
-            /*---Variables De Productos---*/
+/*---Variables De Productos---*/
 
 
 .p-prod
 {
     text-align: center;
-    font-size: 25px;
+    font-size: 1rem;
     font-weight: bold;
+    padding: 0;
+    margin: 0;
 }
 .divprod
 {
@@ -315,7 +440,15 @@ li
     height: auto;
     width: 300px;
     padding: 0px;
-    border: 10px solid black;
+    margin: 1rem;
+    border: 5px solid black;
+}
+.btn{
+    margin: 1rem;
+}
+.card{
+    margin:1rem;
+    background-color: rgb(255, 255, 255);
 }
 
             /*--- Extra o para acomodar---*/

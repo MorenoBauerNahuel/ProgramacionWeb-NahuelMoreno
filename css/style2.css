@@ -1,0 +1,18 @@
+*{ 
+    margin: 0px;
+    padding: 0;
+}
+#navbarNav.collapse.navbar-collapse {
+    background-color: grey;
+    display: flex;
+    font-size: 2em;
+}
+.navbar.navbar-expand-lg.bg-body-tertiary{
+    background-color: red;
+    display: flex;
+}
+.nav-link{
+    margin: 0.2em;
+    padding: 0.2em;
+    display: flex;
+align-items: center;}
