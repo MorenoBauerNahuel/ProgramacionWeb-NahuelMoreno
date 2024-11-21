@@ -24,9 +24,13 @@ index.html: La página principal del sitio web, donde todo comienza.
 # 📂 Carpetas del proyecto:
 
 css/: Archivos CSS que contienen los estilos finales del sitio.
+
 fonts/: Tipografías personalizadas que aportan estilo y profesionalismo.
+
 imagenes/: Recursos gráficos como imágenes y logotipos optimizados para el rendimiento.
+
 paginas/: Subpáginas complementarias que expanden el contenido principal del sitio.
+
 sass/: Archivos SCSS organizados para mantener un código limpio, modular y fácil de mantener.
 
 
