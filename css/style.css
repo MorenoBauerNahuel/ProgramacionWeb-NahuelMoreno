@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "friendinfo";
+}
+
+body {
+  background-color: rgb(231, 211, 169);
+}
+
+.accordion-body, .accordion-button {
+  background-color: rgb(231, 211, 169);
+}
+
+.navbar {
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_RYoJpiV4_WewTikm-DGScDHOFGXssso2KACC8Wov--YRifu9) !important;
+}
+
+.nav-item {
+  background-color: rgba(255, 128, 114, 0.23);
+  margin: 0.5rem;
+  border-radius: 50%;
+  border: solid rgba(0, 0, 0, 0.349);
+}
+
+footer {
+  background-color: rgb(199, 167, 138) !important;
+}
+
+.nav-link, .p-inicio, .preguntas {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  margin: 0.6rem;
+  text-align: center;
+}
+
+.preguntas {
+  font-size: 2rem;
+  justify-content: center;
+  display: flex;
+  margin: 0.7rem;
+  padding: 0.5rem;
+  text-decoration: underline;
+}
+
+.footer-brand {
+  display: flex;
+  justify-content: center;
+  padding: 0.3rem;
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.redesfooter {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  height: auto;
+}
+
+.intro-inicio {
+  padding: 0.7rem;
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 1rem;
+  background-color: beige;
+  font-weight: bold;
+}
+
+.div_img {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  padding: 0;
+  margin: 1rem;
+  border: 5px solid black;
+}
+
+.product {
+  text-align: center;
+  padding: 0.7rem;
+  margin: 0.5rem;
+  font-weight: bold;
+  background-color: rgb(199, 167, 138) !important;
+  text-decoration: underline;
+}
+
+.ubicacion {
+  font-size: 1rem;
+  margin: 0.2rem;
+}
+
+.ubicacion-ciudad {
+  text-align: center;
+  margin: 2rem;
+  background-color: rgba(245, 245, 220, 0.349);
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  font-weight: bold;
+  border-radius: 60%;
+}
+
+.ifrmaps iframe {
+  margin: 1rem;
+  border: 1rem solid black;
+  width: auto !important;
+  height: auto !important;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .nav-item {
+    width: 100%;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    padding: 0.6rem;
+  }
+  .intro-inicio {
+    font-size: 1.1rem;
+    margin: 0.7rem;
+  }
+  .div_img {
+    width: 90%;
+    margin: 0.7rem auto;
+  }
+  .product {
+    font-size: 1rem;
+    margin: 0.7rem auto;
+  }
+  .preguntas {
+    font-size: 1.5rem;
+  }
+  .footer-brand {
+    font-size: 0.9rem;
+  }
+  .redesfooter {
+    width: 60%;
+    margin: 0.5rem auto;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem;
+    justify-content: space-around;
+  }
+  .nav-item {
+    margin: 0.4rem;
+  }
+  .nav-link {
+    font-size: 1.3rem;
+    padding: 0.7rem;
+  }
+  .intro-inicio {
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+  .div_img {
+    width: 250px;
+    margin: 1rem auto;
+  }
+  .preguntas {
+    font-size: 1.6rem;
+  }
+  .footer-brand {
+    font-size: 1rem;
+  }
+  .redesfooter {
+    width: 30%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .navbar-brand {
+    font-size: 1.7rem;
+  }
+  .nav-item {
+    margin: 0.5rem;
+    border-radius: 10%;
+  }
+  .nav-link {
+    font-size: 1.4rem;
+  }
+  .intro-inicio {
+    font-size: 1.6rem;
+  }
+  .product {
+    font-size: 1.3rem;
+  }
+  iframe {
+    border: 1rem solid black;
+    width: 90%;
+  }
+  .redesfooter {
+    width: 20%;
+  }
+}
+@media (min-width: 1201px) {
+  .navbar-brand {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .nav-item {
+    margin: 0.8rem;
+  }
+  .nav-link {
+    font-size: 1.6rem;
+  }
+  .intro-inicio {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .product {
+    font-size: 1.5rem;
+  }
+  .div_img {
+    width: 300px;
+  }
+  .footer-brand {
+    font-size: 1.3rem;
+  }
+  .redesfooter {
+    width: 10%;
+  }
+}
+a {
+  padding: 1px;
+}
+
+/*# sourceMappingURL=style.css.map */
