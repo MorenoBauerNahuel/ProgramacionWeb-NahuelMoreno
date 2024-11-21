@@ -11,8 +11,11 @@ Este proyecto combina las mejores prácticas de diseño y desarrollo web para cr
 # 🌟 Objetivos principales:
 
 Crear una estructura de página web moderna y accesible.
+
 Diseñar una interfaz visualmente atractiva, pero sencilla de navegar.
+
 Implementar un sistema de estilos modular usando SCSS.
+
 Asegurar tiempos de carga rápidos con recursos gráficos optimizados.
 # 📂 Estructura del Proyecto
 
@@ -21,6 +24,7 @@ El proyecto está organizado de manera clara para facilitar su comprensión y us
 # 📌 Archivos principales:
 
 index.html: La página principal del sitio web, donde todo comienza.
+
 # 📂 Carpetas del proyecto:
 
 css/: Archivos CSS que contienen los estilos finales del sitio.
@@ -39,10 +43,14 @@ sass/: Archivos SCSS organizados para mantener un código limpio, modular y fác
 
 Este proyecto aprovecha varias tecnologías y herramientas modernas para lograr su diseño y funcionalidad:
 
-HTML5: Para una estructura semántica y bien definida.
+HTML5: Para una estructura semántica y bien definida. 
+
 CSS3: Para estilos avanzados y animaciones ligeras.
+
 SCSS: Para mantener un código CSS modular, reutilizable y eficiente.
+
 Tipografías Personalizadas: Que realzan el diseño visual del sitio.
+
 Diseño Responsive: Adaptado para dispositivos móviles, tabletas y escritorios.
 
 
@@ -50,8 +58,11 @@ Diseño Responsive: Adaptado para dispositivos móviles, tabletas y escritorios.
 # ✨ Características Destacadas
 
 🎨 Diseño Moderno: Colores equilibrados, tipografías limpias y una navegación intuitiva.
+
 📱 Responsive: El sitio se adapta automáticamente a cualquier tamaño de pantalla.
+
 ⚡ Rendimiento Optimizado: Imágenes comprimidas y uso eficiente de recursos.
+
 🛠️ Código Modular: Estructura organizada para facilitar su mantenimiento.
 
 
@@ -61,7 +72,9 @@ Diseño Responsive: Adaptado para dispositivos móviles, tabletas y escritorios.
 Este proyecto es ideal como:
 
 Portafolio Personal: Para mostrar tus habilidades de diseño y desarrollo web.
+
 Sitio Corporativo: Adaptable para pequeñas empresas o startups.
+
 Base para Proyectos Futuros: Un punto de partida sólido para otros desarrollos web.
 
 
