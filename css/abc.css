@@ -1,3 +1,194 @@
+/* General adjustments for small devices (phones) */
+@media (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-item {
+        width: 100%;
+        margin: 0.2rem;
+        border-radius: 0.5rem;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+
+    .intro-inicio {
+        font-size: 1.2rem;
+        margin: 0.5rem;
+    }
+
+    .p-inicio {
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    .div_img {
+        width: 100%;
+        margin: 0.5rem;
+    }
+
+    iframe {
+        width: 100%;
+        border: 0.5rem solid black;
+    }
+
+    .product {
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    .preguntas {
+        font-size: 1.5rem;
+    }
+
+    .footer-brand {
+        font-size: 0.8rem;
+    }
+
+    .redesfooter {
+        width: 50%;
+        margin: 0.5rem auto;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .nav-item {
+        margin: 0.3rem;
+    }
+
+    .nav-link {
+        font-size: 1.3rem;
+        padding: 0.5rem;
+    }
+
+    .intro-inicio {
+        font-size: 1.5rem;
+    }
+
+    .p-inicio {
+        font-size: 1.1rem;
+    }
+
+    .div_img {
+        width: 250px;
+        margin: 1rem auto;
+    }
+
+    iframe {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .preguntas {
+        font-size: 1.7rem;
+    }
+
+    .footer-brand {
+        font-size: 1rem;
+    }
+
+    .redesfooter {
+        width: 20%;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .nav-item {
+        margin: 0.5rem;
+        border-radius: 10%;
+    }
+
+    .nav-link {
+        font-size: 1.4rem;
+    }
+
+    .intro-inicio {
+        font-size: 1.7rem;
+    }
+
+    .p-inicio {
+        font-size: 1.2rem;
+    }
+
+    .product {
+        font-size: 1.2rem;
+    }
+
+    .preguntas {
+        font-size: 1.8rem;
+    }
+
+    iframe {
+        border: 1rem solid black;
+    }
+
+    .redesfooter {
+        width: 15%;
+    }
+}
+
+/* Extra large devices (wide desktops) */
+@media (min-width: 1201px) {
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .nav-item {
+        margin: 0.7rem;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+    }
+
+    .intro-inicio {
+        font-size: 2rem;
+    }
+
+    .p-inicio {
+        font-size: 1.3rem;
+    }
+
+    .product {
+        font-size: 1.5rem;
+    }
+
+    .preguntas {
+        font-size: 2rem;
+    }
+
+    .div_img {
+        width: 300px;
+    }
+
+    iframe {
+        width: 80%;
+    }
+
+    .footer-brand {
+        font-size: 1.2rem;
+    }
+
+    .redesfooter {
+        width: 10%;
+    }
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -11,7 +202,13 @@ body{
 
 }
 .navbar{
-    background-color: rgb(199, 167, 138) !important;
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_RYoJpiV4_WewTikm-DGScDHOFGXssso2KACC8Wov--YRifu9)!important;
+}
+.nav-item{
+    background-color: rgba(280, 128, 114, 0.23);
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: solid rgba(0, 0, 0, 0.349);
 }
 footer{
     background-color: rgb(199, 167, 138) !important;
@@ -43,6 +240,8 @@ p{
     font-size: 1.5rem;
     padding: 0.7rem;
     margin: 0.6rem;
+    color: black;
+    text-align: center;
 }
 .footer-brand{
     display: flex;
@@ -70,6 +269,7 @@ p{
     font-size: 1.7rem;
     text-align: center;
     margin: 1rem;
+    background-color: beige;
 }
 p{
     font-size: 1.4vw;
@@ -142,4 +342,17 @@ iframe{
 .ubicacion{
     font-size: 1rem;
     margin: 0.2rem;
+}
+.abcde{
+    height: 10% !important;
+    width: 10% !important;
+    border-radius: 100% !important;
+}
+.navbar-brand{
+    color: black;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+
 }
