@@ -6,6 +6,14 @@
 
 body {
   background-color: rgb(231, 211, 169);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0;;
+}
+
+main {
+  flex: 1; /* Empuja el footer hacia abajo al ocupar el espacio disponible */
 }
 
 .accordion-body, .accordion-button {
@@ -23,9 +31,6 @@ body {
   border: solid rgba(0, 0, 0, 0.349);
 }
 
-footer {
-  background-color: rgb(199, 167, 138) !important;
-}
 
 .nav-link, .preguntas {
   color: black;
@@ -74,13 +79,13 @@ footer {
 }
 
 @keyframes show {
-	from {
-		opacity: 0;
+  from {
+    opacity: 0;
 		scale: 25%;
 	}
-
+  
 	to {
-		opacity: 1;
+    opacity: 1;
 		scale: 100%;
 	}
 }
@@ -94,10 +99,10 @@ footer {
   border: 5px solid black;
   view-timeline-name: --image;
 	view-timeline-axis: block;
-
+  
 	animation-timeline: --image;
 	animation-name: show;
-
+  
 	animation-range: entry 25% cover 50%;
 	animation-fill-mode: both;
 }
@@ -310,9 +315,9 @@ footer {
 }
 .div-ubi
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .div-img{
   display: grid;
@@ -323,6 +328,11 @@ footer {
   width: 40%;
 }
 footer {
+  text-align: center; /* Centra el contenido del footer */
+  font-size: 0.9em; /* Ajusta el tamaño del texto para móviles */
+}
+footer {
+  background-color: rgb(199, 167, 138) !important;
   position: relative;
   width: 100%;
   background: #286bcf;
