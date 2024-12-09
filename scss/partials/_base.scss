@@ -1,0 +1,139 @@
+@import"./variables";
+* {
+    padding: 0;
+ margin: 0;
+  font-family: $font-family;
+}
+
+body {
+  background-color: $primary-bg-color;
+}
+
+.accordion-body, .accordion-button {
+  background-color: $primary-bg-color;
+}
+
+.navbar {
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_RYoJpiV4_WewTikm-DGScDHOFGXssso2KACC8Wov--YRifu9)!important;
+}
+
+.nav-item {
+  background-color: $accent-color;
+  margin: 0.5rem;
+  border-radius: 50%;
+  border: solid $border-color;
+}
+
+footer {
+  background-color: $secondary-bg-color !important;
+  text-align: center;
+  font-size: 0.9em; 
+  background-color: rgb(199, 167, 138) !important;
+  position: relative;
+  width: 100%;
+  background: #286bcf;
+  min-height: 6.25rem;
+  padding: 1.25rem 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: auto !important;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.icon-elem {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu-elem {
+  list-style: none;
+}
+.menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+}
+.nav-link {
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    margin: 0.6rem;
+    text-align: center;
+    color: $text-color;
+  font-weight: bold;
+  }
+  .footer-brand {
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+    color: $text-color;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .redesfooter {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: auto;
+  }
+  
+  .intro-inicio {
+    padding: $default-padding;
+    font-size: 1.7rem;
+    text-align: center;
+    margin: $default-margin;
+    background-color: beige;
+    font-weight: bold;
+  }
+  .derechosautor{
+    padding: .5rem;
+    margin: 0;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+  }
+  .p-inicio{
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 1rem;
+    text-align: center;
+  }

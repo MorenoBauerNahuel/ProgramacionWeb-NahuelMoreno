@@ -1,0 +1,28 @@
+@import"./variables";
+.text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .caption {
+    font-size: 0.9em; 
+    text-align: center; 
+    color: #6c757d; 
+    margin-top: 8px; 
+    font-style: italic;
+  }
+  .div-img{
+    display: grid;
+    place-items:center;
+  }
+  .imagendiv{
+    height: 100%;
+    width: 40%;
+  }
+  p{
+    padding:$default-padding;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+  }
