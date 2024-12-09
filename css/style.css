@@ -136,10 +136,10 @@ footer {
 
 .p-inicio {
   color: black;
-  font-weight: bold;
   font-size: 1.3rem;
-  margin: 1rem;
+  margin: 2rem;
   text-align: center;
+  padding: 1.5rem;
 }
 
 @media (max-width: 576px) {
@@ -291,10 +291,17 @@ footer {
   width: 40%;
 }
 
-p {
-  padding: 0.7rem;
+.p-nosotros {
+  padding: 1.8rem;
   margin: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+
+.str-nosotros:hover {
+  color: #6c757d;
 }
 
 .preguntas {

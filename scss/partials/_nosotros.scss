@@ -21,8 +21,14 @@
     height: 100%;
     width: 40%;
   }
-  p{
-    padding:$default-padding;
+  .p-nosotros{
+    padding: 1.8rem ; 
     margin: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    color: black;
+    display: inline-block;
+    text-align: center;
   }
+.str-nosotros:hover{
+  color:#6c757d
+}
