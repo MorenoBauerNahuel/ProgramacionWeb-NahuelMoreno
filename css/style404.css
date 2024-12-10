@@ -1,0 +1,165 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.error-code {
+    font-size: 10rem;
+    color: #ff6363;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.error-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff6363;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-home:hover {
+    background-color: #ff4747;
+}
+@media (max-width: 600px) {
+    body {
+        height: auto; /* Permite que el contenido ocupe toda la pantalla */
+        padding: 20px; /* Asegura que haya un espacio en los bordes */
+    }
+
+    .container {
+        max-width: 100%; /* Usa todo el ancho disponible */
+        padding: 10px;
+    }
+
+    .error-code {
+        font-size: 6rem; /* Reduce el tamaño del texto */
+        margin-bottom: 15px;
+    }
+
+    .error-message {
+        font-size: 1.5rem; /* Reduce el tamaño del texto */
+        margin-bottom: 15px;
+    }
+
+    .error-description {
+        font-size: 1rem; /* Reduce el tamaño del texto */
+        margin-bottom: 20px;
+    }
+
+    .btn-home {
+        padding: 10px 20px; /* Reduce el tamaño del botón */
+        font-size: 0.9rem; /* Reduce la fuente del botón */
+    }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    body {
+        height: auto;
+        padding: 30px;
+    }
+
+    .container {
+        max-width: 90%; /* Usa el 90% del ancho de la pantalla */
+        padding: 15px;
+    }
+
+    .error-code {
+        font-size: 8rem; /* Reduce el tamaño del texto */
+        margin-bottom: 18px;
+    }
+
+    .error-message {
+        font-size: 1.8rem; /* Ajusta el tamaño del texto */
+        margin-bottom: 18px;
+    }
+
+    .error-description {
+        font-size: 1.1rem; /* Ajusta el tamaño del texto */
+        margin-bottom: 25px;
+    }
+
+    .btn-home {
+        padding: 12px 25px; /* Ajusta el tamaño del botón */
+        font-size: 1rem; 
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+    .container {
+        max-width: 80%; /* Usa un poco más del ancho de la pantalla */
+        padding: 20px;
+    }
+
+    .error-code {
+        font-size: 9rem; /* Ajusta el tamaño de la fuente */
+    }
+
+    .error-message {
+        font-size: 2rem; /* Mantiene el tamaño */
+    }
+
+    .error-description {
+        font-size: 1.2rem; /* Mantiene el tamaño */
+    }
+
+    .btn-home {
+        padding: 15px 30px; /* Tamaño original */
+        font-size: 1rem;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 50%; /* Usa solo la mitad del ancho */
+    }
+
+    .error-code {
+        font-size: 10rem; /* Mantiene el tamaño de la fuente */
+    }
+
+    .error-message {
+        font-size: 2.5rem; /* Se hace un poco más grande */
+    }
+
+    .error-description {
+        font-size: 1.5rem; /* Se hace un poco más grande */
+    }
+
+    .btn-home {
+        padding: 20px 40px; /* El botón se hace más grande */
+        font-size: 1.2rem; /* Fuente más grande para mejor visibilidad */
+    }
+}
+
