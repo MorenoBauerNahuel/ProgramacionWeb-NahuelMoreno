@@ -1,6 +1,6 @@
 @import"./variables";
 .div_img {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
     width: 300px;
     padding: 0;
@@ -15,4 +15,9 @@
     font-weight: bold;
     background-color: $secondary-bg-color !important;
     text-decoration: underline;
+  }
+  .img-fluid{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
   }
